@@ -107,8 +107,8 @@ public class ScanView extends FrameLayout {
         CURRENT_TYEP = type;
         LinearLayout.LayoutParams fl_params = (LinearLayout.LayoutParams) fl_scan.getLayoutParams();
         if(CURRENT_TYEP == QrConfig.SCANVIEW_TYPE_QRCODE){
-            fl_params.width = dip2px(200);
-            fl_params.height = dip2px(200);
+            fl_params.width = dip2px(300);
+            fl_params.height = dip2px(300);
         }else if(CURRENT_TYEP == QrConfig.SCANVIEW_TYPE_BARCODE){
            /* fl_params.width = dip2px(300);
             fl_params.height = dip2px(100);*/
